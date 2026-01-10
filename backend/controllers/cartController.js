@@ -72,7 +72,7 @@ const getCart = async (req, res) => {
 
         res.json({
             success: true,
-            cart: cartData
+            cartData: cartData
         });
 
     } catch (error) {
