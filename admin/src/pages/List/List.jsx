@@ -49,7 +49,7 @@ const List = ({ url }) => {
               <p>{item.category}</p>
               <p>${item.price}</p>
               <p className="action-buttons">
-                <span className="edit" onClick={() => navigate('/add', { state: item })}>
+                <span className="edit" onClick={() => navigate('/', { state: item })}>
                   Edit
                 </span>
                 <span className="delete" onClick={() => removeFood(item._id)}>
